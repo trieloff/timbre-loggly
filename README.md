@@ -2,6 +2,7 @@
 A timbre (ClojureScript/Node.js) appender that posts to Loggly
 
 [![Clojars Project](https://img.shields.io/clojars/v/trieloff/timbre-loggly.svg)](https://clojars.org/trieloff/timbre-loggly)
+[![CircleCI](https://circleci.com/gh/trieloff/timbre-loggly.svg?style=shield)](https://circleci.com/gh/trieloff/timbre-loggly)
 
 ## Background
 
