@@ -1,8 +1,14 @@
-(defproject timbre-loggly "0.1.0-SNAPSHOT"
+(defproject trieloff/timbre-loggly "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojurescript "1.9.521" :exclusions [org.apache.ant/ant]]
                  [funcool/httpurr "1.0.0"]
                  [com.taoensso/timbre "4.10.0"]
                  [org.clojure/clojure "1.8.0"]]
+  :author "Lars Trieloff <https://github.com/trieloff>"
+  :description "A timbre (ClojureScript/Node.js) appender that posts to Loggly"
+  :url "https://github.com/trieloff/timbre-loggly"
+  :license {:name "Apache License 2.0"
+            :url  "http://www.eclipse.org/legal/epl-v10.htmlhttps://www.apache.org/licenses/LICENSE-2.0"
+            :distribution :repo}
   :plugins [[lein-cljsbuild "1.1.6"]
             [lein-doo "0.1.7"]]
   :clean-targets ^{:protect false} ["target"]
