@@ -12,9 +12,11 @@
   :plugins [[lein-cljsbuild "1.1.6"]
             [lein-doo "0.1.7"]]
   :clean-targets ^{:protect false} ["target"]
+  :hooks [leiningen.cljsbuild]
   :cljsbuild {
     :builds [{:id "prod"
               :source-paths ["src/cljs"]
+              :jar true
               :compiler {:main timbre.loggly
                          :output-to "target/timbre-loggly.js"
                          :language-in  :ecmascript5
