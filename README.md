@@ -13,7 +13,7 @@ A timbre (ClojureScript/Node.js) appender that posts to Loggly
 Add this to your `project.clj`'s `:dependencies` vector:
 
 ```clojure
-[trieloff/timbre-loggly "0.1.0"]
+[trieloff/timbre-loggly "0.2.0"]
 ```
 
 You will also need an API Token from Loggly.
