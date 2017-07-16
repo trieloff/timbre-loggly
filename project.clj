@@ -7,7 +7,7 @@
   :description "A timbre (ClojureScript/Node.js) appender that posts to Loggly"
   :url "https://github.com/trieloff/timbre-loggly"
   :license {:name "Apache License 2.0"
-            :url  "http://www.eclipse.org/legal/epl-v10.htmlhttps://www.apache.org/licenses/LICENSE-2.0"
+            :url  "https://www.apache.org/licenses/LICENSE-2.0"
             :distribution :repo}
   :plugins [[lein-cljsbuild "1.1.6"]
             [lein-doo "0.1.7"]]
