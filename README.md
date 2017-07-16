@@ -1,6 +1,8 @@
 # timbre-loggly
 A timbre (ClojureScript/Node.js) appender that posts to Loggly
 
+[![Clojars Project](https://img.shields.io/clojars/v/trieloff/timbre-loggly.svg)](https://clojars.org/trieloff/timbre-loggly)
+
 ## Background
 
 **timbre-loggly** is a log appender for the [τaoenssō/timbre](https://github.com/ptaoussanis/timbre) logging library that posts logs to the [Loggly.com](https://www.loggly.com) logging as a service provider. It is meant for a ClojureScript on Node.js environment.

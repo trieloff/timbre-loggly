@@ -1,4 +1,4 @@
-(defproject trieloff/timbre-loggly "0.1.0"
+(defproject trieloff/timbre-loggly "0.2.0-SNAPSHOT"
   :dependencies [[org.clojure/clojurescript "1.9.521" :exclusions [org.apache.ant/ant]]
                  [funcool/httpurr "1.0.0"]
                  [com.taoensso/timbre "4.10.0"]
